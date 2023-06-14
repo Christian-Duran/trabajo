@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otras Etiquetas de bloqueo</title>
+
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<!-- 
+    address -> Se utiliza para aportar información de contacto para el article más cercano o para todo el body
+
+    blockquote -> Se utiliza para marcar las citas a otros autores o documentos. Se puede incluir el atributo cite para poner un enlace al docuemnto original o fuente.
+
+    pre -> Se utiliza para tener código preformateado que necesita ser representado igual que se escribió
+
+    div -> Se usa como división del documento, semánticamente no significa nada, es un contenedor genérico que se usa generalmente para dar estilos a través de CSS o para usar algo denominado "delegación de eventos" en JavaScript
+
+    hr -> horizontal rule, se utiliza para decirle al navegador que vamos a cambiar de tema
+
+    span -> Es un contenedor de línea, equivalnete a div, se suele usar para encerrar palabras o peuqeños textos y darles estilo a través de CSS o localizarlos desde JavaScript. Semánticamente no significa nada.
+
+    q -> Es el equivalente a blockquote, significa quote, por eso el de bloque se llama block - quote. Sirve para poner citas pero en línea.
+    
+    code -> Sirve para encerrar código que queremos representar visualmente, suele ir unido con la etiqueta pre.
+
+    Entidades especiales en HTML - Código ASCII
+        https://ascii.cl/es/codigos-html.htm
+ -->
+<body>
+    <address>
+        Tony Stark <br>
+        Malibu 10880 <br>
+        90265 <br>
+        California
+    </address>
+
+<blockquote cite="">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quos molestiae voluptate nostrum dolorem enim fugit aliquam minus rerum ullam obcaecati error earum aliquid sed vero, quam omnis delectus numquam.
+    </p>
+</blockquote>
+
+<pre>
+    Hola, 
+    ¿qué tal?
+</pre>
+
+<div>
+    <h2>Nombre</h2>
+    <p>email</p>
+    <p>Descripción</p>
+</div>
+
+<hr>
+
+<p>
+    Lorem ipsum dolor sit amet <span> consectetur adipisicing </span> elit.Id, atque earum cupiditate, voluptatum reiciendis, facilis eius nobis incidunt excepturi ipsam voluptates. Modi eius, fuga adipisci dolorum error aut aspernatur rerum.
+</p>
+
+<q cite="">Yo soy Iron Man</q>
+
+<pre>
+    <code>
+        span{
+            color: red;
+        }
+    </code>
+</pre>
+
+<p>La etiqieta <code>&#60;h1&#62;</code> se utiliza para representar titulos de primer nivel</p>
+<!-- Símbolo de copyright -->
+&copy;
+
+</body>
+</html>
